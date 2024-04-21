@@ -110,3 +110,35 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+/** panel **/
+
+.panel{
+    height:39px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:0.85rem;
+}
+
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-option{
+    width:70%;
+    font-size:0.85rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+/** hero-section **/
+.hero-section{
+    background-image: url("./img/hero_image.jpg");
+    height: 600px;
+    background-size: cover;
+}
